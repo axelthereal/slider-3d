@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slider 3D</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <section class="py-5 text-center">
+        <section class="slider my-5">
+            <div class="slider-title text-center">
+                <h1 class="py-3" style="font-family:poppins;background-color: #000; width: 40%;margin: auto; color: white;">Plus d'images<span style="color:#ff7200;">.</span></h1>			
+            </div>
+
+            <div class="slider-container p-3">
+                <ul class="slider-items">
+                    <li class="item-1" data-index="0"><img src="images/image-1.png"></li>
+                    <li class="item-2" data-index="1"><img src="images/image-2.png"></li>
+                    <li class="item-3" data-index="2"><img src="images/image-3.png"></li>
+                    <li class="item-4" data-index="3"><img src="images/image-4.png"></li>
+                    <li class="item-5" data-index="4"><img src="images/image-5.png"></li>
+                </ul>
+
+                <div class="slider-navigation">
+                    <button class="slider-nav prev"></button>
+                    <button class="slider-nav next"></button>
+                </div>
+
+                <div class="slider-dots">
+                    <ul>
+                        <li class="active" data-index="0"></li>
+                        <li data-index="1"></li>
+                        <li data-index="2"></li>
+                        <li data-index="3"></li>
+                        <li data-index="4"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
